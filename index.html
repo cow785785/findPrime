@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="area">
+            <h1>列出質數</h1>
+            <p id="textarea">輸入正整數，會列出小於此數的質數</p>
+            <label for="findinput">輸入數字</label>
+            <input id="num" type="number" class="inp" onkeydown="if(event.keyCode===13) document.getElementById('btn').click()"><br>
+            <button id="btn">送出</button>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
